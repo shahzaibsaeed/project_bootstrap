@@ -1,0 +1,227 @@
+/* Fixed the nav bar with the carousel */
+.fixed-top{
+  position: absolute !important;
+  padding: 20px !important;
+}
+
+/*Adjust the Font and details of Title on the Nav Bar*/
+.navbar-light .navbar-brand{
+  color: #dadada !important;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 4px;
+}
+
+/*Added the Border Line*/
+.navbar ul li:last-child{
+  border-right: 0.9px solid #dadada;
+}
+
+/*Adjust the Nav Bar on rightside*/
+.navbar-light .nav-link{
+  color: #dadada !important;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-left: 0.9px solid #dadada;
+  padding: 12px 20px !important;
+
+}
+.navbar-light .navbar-toggler{
+  border-color: #dadada !important;
+}
+
+
+
+
+/*                         Carousel Adjustment*/
+.carousel-caption{
+  background-color: rgba(0, 0, 0, 0.5);
+  left: 10% !important;
+  bottom: 20% !important;
+  height: 400px;
+  width: 400px;
+  padding: 30px;
+}
+.caption-link{
+  color: grey;
+}
+.caption-link:hover{
+  color: #dadada;
+}
+.carousel-caption h5{
+  font-size: 28px;
+  text-align: left;
+  font-weight: bold;
+  padding: 15px;
+}
+
+.carousel-caption p{
+  text-align: left;
+  padding: 15px;
+}
+
+.carousel-caption button{
+  padding: 4px 25px;
+  font-size: 15px;
+  text-align: center;
+  background-color: transparent;
+  color: #dadada;
+}
+.carousel-caption button:hover{
+  background-color: #dadada;
+  color: black;
+}
+
+
+                      /*             Quotes    */
+
+.container-quotes {
+  background-color: black;
+}
+
+
+  .container-quotes .col-8-left h5{
+  font-size: 32px;
+  line-height: 2;
+  color: #dadada;
+}
+
+.container-quotes .col-8-left p{
+  margin-top: 18px;
+  color: #dadada;
+}
+
+.container-quotes .row-main{
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.table{
+  border: none !important;
+}
+
+.table .numbers,.achievement{
+  border: none !important;
+  color: #dadada;
+  text-transform: uppercase;
+
+}
+
+.tablerow{
+  border-bottom: 1px solid #dadada;
+}
+
+.table .numbers{
+  font-size: 48px;
+  text-align: left;
+  padding-top: 10px;
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+.table .achievement{
+  text-align: right;
+  font-size: 14px;
+  padding-right: 0;
+  padding-left: 80px;
+  padding-top: 30px;
+}
+
+
+@media screen and (max-width:1100px) {
+  .carousel-caption{
+    left: 0 !important;
+    bottom: 0% !important;
+    height: 80px;
+    width: 100%;
+  }
+  .carousel-caption h5{
+    font-size: 28px;
+    margin-bottom: 0px;
+    padding: 8px;
+  }
+  .carousel-caption p,.button-caption,.carousel-indicators{
+    display: none !important;
+  }
+}
+
+@media screen and (max-width:991px) {
+  .navbar-nav{
+    background-color: #112735;
+  }
+}
+
+@media screen and (max-width:890px) {
+  .carousel-caption h5{
+    font-size: 22px;
+  }
+  .container-quotes .row-main{
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .container-subquotes{
+    margin-left: 40px !important;
+    margin-right: 40px !important;
+  }
+
+  .col-8-left{
+    margin-left: 40px;
+  }
+  .col-8-left h5{
+    font-size: 20px !important;
+    line-height: 1.5 !important;
+    margin-top: 40px;
+  }
+  .col-4-right{
+    margin-left: 140px;
+    margin-top: 20px;
+  }
+  .table .numbers{
+    font-size: 36px;
+    padding-top: 0;
+  }
+  .table .achievement{
+    padding-left: 40px;
+    padding-bottom: 0;
+    padding-top: 10px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width:451px) {
+  .navbar-light .navbar-brand{
+    font-size: 14px;
+  }
+  .navbar-toggler-icon{
+    width: 0.5em !important;
+    height: 0.5em !important;
+  }
+  .carousel-control-prev-icon,.carousel-control-next-icon{
+    display: none !important;
+  }
+  .carousel-caption{
+    padding-top: 0 !important;
+    height: 45px;
+  }
+  .carousel-caption h5{
+    font-size: 12px;
+  }
+  .col-8-left{
+    margin-left: 10px;
+  }
+  .col-4-right{
+    margin-left: 0;
+  }
+  .table .numbers{
+    font-size: 28px;
+    padding-top: 10px;
+  }
+  .table .achievement{
+    font-size: 12px;
+  }
+  .page-footer{
+    font-size: 0.6rem !important;
+  }
+}

@@ -1,0 +1,128 @@
+.body{
+  background-color: black;
+}
+/* Fixed the nav bar with the carousel */
+.fixed-top{
+  position: absolute !important;
+  padding: 20px !important;
+}
+/*Adjust the Font and details of Title on the Nav Bar*/
+.navbar-light .navbar-brand{
+  color: #dadada !important;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 4px;
+}
+
+/*Added the Border Line*/
+.navbar ul li:last-child{
+  border-right: 0.9px solid #dadada;
+}
+
+/*Adjust the Nav Bar on rightside*/
+.navbar-light .nav-link{
+  color: #dadada !important;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-left: 0.9px solid #dadada;
+  padding: 12px 20px !important;
+
+}
+.navbar-light .navbar-toggler{
+  border-color: #dadada !important;
+}
+
+
+
+                /*             Main            */
+
+.container-content{
+  color: #dadada;
+  margin-top: 100px;
+  padding-left: 0;
+  padding-right: 0;
+}
+.container-content .title{
+  text-transform:uppercase;
+}
+.container-content .title::before{
+  content:"	\01F3A6"
+}
+.container-content > h2{
+  text-align: right;
+}
+.row-films{
+  margin-top: 30px;
+  margin-right: -15px;
+  margin-left: -15px;
+  margin-bottom: 30px;
+}
+.container-content .col-sm{
+  background-color: #1b1b1b;
+  height: 100%;
+  color: #bcb7ae;
+  padding-left: 0;
+  padding-right: 0;
+  margin-right: 20px;
+  margin-bottom: 30px;
+}
+.container-content .container-img{
+  background-size: cover;
+  height: 200px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.container-content h4{
+  font-size: 20px;
+  padding: 12px;
+  text-align: center;
+  margin-bottom: 45px;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.container-content p{
+  text-align: center;
+  font-size: 10px;
+  border-top: 0.5px solid red;
+  margin-left: 120px;
+  margin-right: 120px;
+  padding-top: 10px;
+}
+
+@media screen and (max-width:991px) {
+  .navbar-nav{
+    background-color: #112735;
+  }
+
+}
+
+@media screen and (max-width:451px) {
+  .navbar-light .navbar-brand{
+    font-size: 14px;
+  }
+  .navbar-toggler-icon{
+    width: 0.5em !important;
+    height: 0.5em !important;
+  }
+  .container-content .title{
+    font-size: 1.5rem;
+  }
+  .row-films{
+    margin-left: 30px !important;
+    margin-right: 30px !important;
+  }
+  .container-content .col-sm{
+    margin-right: 0 !important;
+  }
+  .container-content h4{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  .page-footer{
+    font-size: 0.6rem !important;
+  }
+}
