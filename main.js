@@ -8,7 +8,7 @@ document.body.appendChild(chatDiv);
 
 window.fbAsyncInit = function() {
     FB.init({
-        appId: '917352275452523',
+        appId: '850652791742367',
         autoLogAppEvents: true,
         xfbml: true,
         version: "v3.2"
