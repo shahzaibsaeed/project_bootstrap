@@ -154,14 +154,33 @@
         </div>
 
         <!--                          Footer                          -->
-
+  <div id="fb-root"></div>
+        <script>
+          window.fbAsyncInit = function() {
+            FB.init({
+              xfbml            : true,
+              version          : 'v8.0'
+            });
+          };
+          (function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+        <!-- Your Chat Plugin code -->
+        <div class="fb-customerchat"
+          attribution=setup_tool
+          page_id="113424867158383">
+        </div>
 
         <footer class="page-footer font-small" style="background-color:#112735;color:#dadada;border-top: 2px solid red;">
           <div class="footer-copyright text-center py-3">© 2020 Copyright:
             <a href="https://github.com/shahzaibsaeed"> Shahzaib Saeed</a>
           </div>
         </footer>
-<script src="https://devapis.appconzia.com/api/channel/facebook/chat-plugin/5f773f3a347dea182df204a7/113424867158383"></script>
+<!-- <script src="https://devapis.appconzia.com/api/channel/facebook/chat-plugin/5f773f3a347dea182df204a7/113424867158383"></script> -->
  
       </body>
     
