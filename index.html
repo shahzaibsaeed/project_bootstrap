@@ -17,7 +17,7 @@
 <!--         <script type="text/javascript" src="https://devapis.appconzia.com/api/channel/facebook/chat-plugin/5f773f3a347dea182df204a7/113424867158383" async></script> -->
        <script text/javascript>
            var chatDiv = document.createElement("div");
-    chatDiv.className = "fb-customerchat";
+            chatDiv.className = "fb-customerchat";
     chatDiv.setAttribute("page_id", "113424867158383");
     chatDiv.setAttribute("theme_color", "#0072AA");
     chatDiv.setAttribute("greeting_dialog_display", "SHOW");
@@ -35,12 +35,12 @@
         });
     };
     (function(d, s, id) {
-            while (document.getElementById("facebook-jssdk")) {
-              var element = document.getElementById("facebook-jssdk");
-              element.parentNode.removeChild(element);
-            }
+//             while (document.getElementById("facebook-jssdk")) {
+//               var element = document.getElementById("facebook-jssdk");
+//               element.parentNode.removeChild(element);
+//             }
     
-            var fjs = d.getElementsByTagName(s)[0];
+//             var fjs = d.getElementsByTagName(s)[0];
             var js,
               parent = d.getElementsByTagName(s)[0].parentNode;
             js = d.createElement(s);
